@@ -1,0 +1,83 @@
+body {
+    /* margin: 0; */
+    /* padding: 0; */
+    background-image: url(../background.svg) !important;
+    background-repeat: no-repeat;
+    box-sizing: initial;
+    background-size: 80%;
+    background-position: -150% -10%;
+    background-color: #D9E4F6;
+}
+
+.main-cadastrar {
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.left-cadastrar img {
+    width: 100%;
+    height: auto; 
+}
+
+.img-cadastrar {
+    margin-top: auto;
+}
+
+.left-cadastrar {
+    width: 50%;
+    height: 100%; 
+    background-color: #D9E4F6; 
+    height: 100vh;
+    display: flex;
+}
+
+.right-cadastrar {
+    position: absolute; 
+    top: 0; 
+    right: 0; 
+    width: 50%; 
+    height: 100%; 
+    padding: 1% 12% 1% 12%;
+    background-color: white;
+}
+
+.right-cadastrar img{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    border-radius: 5px;
+}
+
+
+.cadastrar {
+    margin-top: 8%;
+    bottom: 10px;
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items:center
+}
+
+.btnCadastrar{
+    text-align: center;
+    width: 380px; 
+    font-size: 18px; 
+    padding: 10px 30px; 
+    background-color:#5189DD;
+    border-radius: 15px;
+    color:white;
+    border: none;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3); 
+}
+
+.form-control {
+    border-radius: 15px;
+    background-color: #E9EFF9;
+}
+
+.form-label {
+    font-weight:500;
+}
+
